@@ -22,7 +22,7 @@
 
     .all-links {
       margin-top: 1%;
-      margin-bottom: 2%;
+      margin-bottom: 1.5%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -41,8 +41,8 @@
       justify-content: space-evenly;
 
       &>a:hover {
-        font-size: 30px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+        transform: scale(1.2);
+        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
       }
     }
 
@@ -52,8 +52,18 @@
       width: 400px;
       font-size: 25px;
       padding: 9px;
+      margin-right: 1%;
       font-weight: 100;
       text-align: center;
+
+      &:hover {
+        transition-duration: 1s;
+        margin-right: 1.8%;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 200;
+        transform: scale(1.2);
+        text-align: left;
+      }
     }
 
     .first-image {
