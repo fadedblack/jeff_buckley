@@ -42,7 +42,7 @@
 
       &>a:hover {
         transform: scale(1.2);
-        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+        transition-duration: 700ms;
       }
     }
 
@@ -54,7 +54,6 @@
       padding: 9px;
       margin-right: 1%;
       font-weight: 100;
-      text-align: center;
 
       &:hover {
         transition-duration: 1s;
@@ -62,7 +61,6 @@
         color: rgba(0, 0, 0, 1);
         font-weight: 200;
         transform: scale(1.2);
-        text-align: left;
       }
     }
 
@@ -71,7 +69,7 @@
     }
 
     #image-caption {
-      padding-top: 5px;
+      padding-top: 0.4%;
       padding-left: 2%;
       margin-bottom: 2%;
       font-style: italic;
@@ -101,6 +99,25 @@
       width: 100%;
       margin-top: 2%;
     }
+
+    #rg-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      &>img {
+        /* margin-left: 5%; */
+        margin-right: 10%;
+      }
+
+      &>p {
+        width: 900px;
+        margin-left: 5%;
+        letter-spacing: 1.8px;
+        font-size: 1.3em;
+        text-align: justify;
+      }
+    }
   </style>
 </head>
 
@@ -122,15 +139,21 @@
     </section>
 
     <section class="about">
-      <h4 id="about-heading">Sl<span>o</span>w<span>d</span>ive</h4>
+      <h4 id="about-heading">Slowdive</h4>
       <p>Slowdive are an English rock band that formed in Reading, Berkshire, in 1989. The band
-        consists of <strong>Rachel Goswell</strong> (vocals, guitars, keyboards), <strong>Neil Halstead</strong>
+        consists of <a href="#rachel-goswell"><strong>Rachel Goswell</strong></a>
+        (vocals, guitars, keyboards),
+        <a href="#neil-halstead"><strong>Neil Halstead</strong></a>
         (vocals, guitars),
-        Christian Savill
-        (guitars), <strong>Nick Chaplin</strong> (bass), and <strong>Simon Scott</strong> (drums, guitars,
+        <a href="#christian-savill"><strong>Christian Savill</strong></a>
+        (guitars),
+        <a href="#nick-chaplin"><strong>Nick Chaplin</strong></a> (bass), and <a href="#simon-scott"><strong>Simon
+            Scott</strong></a> (drums,
+        guitars,
         electronics),
         all of whom played on the band's
-        early records. Halstead is the band's primary songwriter.</p>
+        early records. Halstead is the band's primary songwriter.
+      </p>
 
       <p>After releasing several EPs, the band released debut album <strong>Just for a Day</strong> (1991) and
         follow up
@@ -156,6 +179,45 @@
 
     <img src="./assests/new.jpeg" alt="Slowdive reading 1990" class="second-image">
 
+    <section>
+      <h4>Members</h4>
+      <div id="rachel-goswell">
+        <h5>Rachel Goswell</h5>
+        <div id="rg-section">
+          <p>Rachel Ann Goswell (born 16 May 1971) is an English singer-songwriter and musician who rose to prominence
+            as vocalist and guitarist of the shoegaze band Slowdive, which formed in 1989. Goswell, along with Neil
+            Halstead, Ian McCutcheon and former Chapterhouse member Simon Rowe became Mojave 3 when Slowdive
+            transitioned to a more country/folk rock style. She released a solo album in 2004, titled Waves Are
+            Universal on 4AD Records.
+            <br>
+            <br>
+            Goswell was born in Fareham, Hampshire, England. Her family moved to Wales after her birth, and to Reading,
+            Berkshire when she was seven, where she spent the rest of her youth. She has an older brother.
+            <br>
+            <br>
+            Her father taught her folk guitar songs from the age of seven, and she began studying classical guitar and
+            music theory at age ten. Goswell took classical guitar lessons along with childhood friend Neil Halstead,
+            with whom she formed Slowdive in 1989. She was influenced, from a singing point of view, by Siouxsie
+            Sioux", "it was who made me want to be a singer." Joni Mitchell, Iggy Pop and Nick Cave were her
+            other favorite singers. Goswell was also inspired by the Cocteau Twins; she discovered their music at 16
+            and "found myself immersed in the magic and wonder of their overall sound musically." The songs that
+            influenced her the most were: "There Is A Light That Never Goes Out" by The Smiths, "92 Degrees" from
+            Siouxsie and the Banshees' Tinderbox album, "Persephone" from Cocteau Twins' Treasure album and "River" by
+            Joni Mitchell.
+          </p>
+
+          <p>
+
+          </p>
+
+          <img src="./assests/Rachel Goswell.jpg" alt="Rachel Goswell image">
+        </div>
+      </div>
+      <div id="neil-halstead">Neil Halstead</div>
+      <div id="christian-savill">Christian Savill</div>
+      <div id="nick-chaplin">Nick Chaplin</div>
+      <div id="simon-scott">Simon Scott</div>
+    </section>
   </main>
 </body>
 
